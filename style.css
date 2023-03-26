@@ -1,5 +1,5 @@
 *{
-    background-color:rgb(194, 194, 194);
+    background-color: #A39E92;
 }
 
 
@@ -8,114 +8,127 @@
     display:flex;
     justify-content:center;
     align-items: center;
+    
 }
 .mainContainer{
-    background-color:rgb(54, 54, 54);
+    box-shadow: 0 0 10px black;
+    background-color: #333333;
     padding:5px;
     display:flex;
     flex-direction: column;
     margin-top:100px;
-    border:2px solid black;
     width:400px;
-    height:500px;
+    height: 450px;
     border-radius:1rem;
+    
 }
 .CLDL{
     
     background-color:rgb(54, 54, 54);
-
     padding-left:20px;
     padding-right:20px;
-    display:grid;
-    
+    display:flex;
+    align-items: center;
+    justify-content: center;
     grid-gap:10px;
     grid-template-columns:1fr 1fr 1fr;
-    height:110px;
-    
+    height:80px;
+    /* border:2px solid red; */
 }
 .CLDLbtn{
-    
     font-size:larger;
     display:flex;
     align-items: center;
     justify-content: center;
     border-radius:0.3rem;
+    font-weight: bolder;
+    height: 50px;
     
     
 }
 #calcName{
     background-color:rgb(54, 54, 54);
+    color:whitesmoke;
+    font-style:italic;
+    height: 50px;
     width:150px
 }
 #DL{
-    background-color:red;
+    color:#FBEEE4;
+    background-color:#CA3433;
     color:whitesmoke;
-    border:2px solid rgb(170, 11, 11);
+    border:0px;
+    box-shadow: 0 0 6px black;
 }
 #CL{
-
-    background-color:red;
+    color:#FBEEE4;
+    background-color:#CA3433;
     color:whitesmoke;
-    border:2px solid rgb(170, 11, 11);
+    border:0px;
+    box-shadow: 0 0 6px black;
+    
 }
-
+#CL:hover{
+    background-color:#be6161;
+    transition: 0.1s ease-in-out;
+}
+#DL:hover{
+    background-color:#be6161;
+    transition: 0.1s ease-in-out;
+}
 #display{
-    display:flex;
+    
+    display:flex;    
+    box-shadow: 0 0 6px black;
     flex-direction:column;
-    background-color:whitesmoke;
-    border:5px solid black;
-    height:200px;
-    margin-top:20px;
-    margin-left:20px;
-    margin-right:20px;
-    margin-bottom:10px;
+    justify-content: center;
+    background-color:#FBEEE4;
+    height:80px;
+    margin: 20px 20px 0px 20px;
     text-align:end;
 
-    border-radius:0.3rem;
 
 }
 
 #prevCalc{
-    background-color:whitesmoke;
+    background-color:#FBEEE4;
     overflow:hidden;
     font-size:2rem;
     height: 2.5rem;
+    
 }
 #currCalc{
-    background-color:whitesmoke;
+    background-color:#FBEEE4;    
     overflow:hidden;
     word-wrap: break-word;
     font-size:3rem;
     height: 3rem;
+    
 
 }
 
 .buttons{
     background-color:rgb(54, 54, 54);
-    /* border:2px solid red; */
-    margin:20px;
-    margin-top:10px;
+    margin:0px 20px 20px 20px;
     display:grid;
     grid-gap:10px;
     grid-template-columns:1fr 1fr 1fr 1fr;
-
-    
 }
 
 
 .button{
+    box-shadow: 0 0 6px black;
     font-weight:900;
-    font-size:300;
-    color:white;
+    font-size:2rem;
+    color:#FBEEE4;
     background-color:rgb(99, 99, 99);
     border-radius:0.5rem;
-    padding:20px;
-    border:2px black solid;
+    padding:10px;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .button:hover{
     background-color: grey;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
